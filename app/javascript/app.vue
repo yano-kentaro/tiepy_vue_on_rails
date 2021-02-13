@@ -1,14 +1,16 @@
 <template>
-  <div id="app">
+  <v-app>
     <p>{{ message }}</p>
-  </div>
+
+    <div><v-btn color="primary" rounded dark>hello</v-btn></div>
+  </v-app>
 </template>
 
 <script>
 export default {
   data: function () {
     return {
-      message: "Hello Vue!"
+      message: "Hello Vue!!"
     }
   }
 }
